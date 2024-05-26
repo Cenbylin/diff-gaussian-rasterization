@@ -3,6 +3,10 @@ NOTE: this is a modified version to support feature rendering (both forward and 
 
 **Example:**
 ```
+from diff_gaussian_rasterization_plus import GaussianRasterizationSettings, GaussianRasterizer
+
+...
+
 others: torch.Tensor [N, S_other]
 S_other = others.shape[1]
 
